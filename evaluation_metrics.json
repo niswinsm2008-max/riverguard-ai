@@ -1,0 +1,33 @@
+{
+  "dataset_type": "synthetic demonstration data",
+  "records": 2500,
+  "train_records": 2000,
+  "test_records": 500,
+  "accuracy": 0.854,
+  "precision_weighted": 0.8778,
+  "recall_weighted": 0.854,
+  "f1_weighted": 0.8638,
+  "labels": [
+    "Lower concern",
+    "Needs verification"
+  ],
+  "confusion_matrix": [
+    [
+      392,
+      48
+    ],
+    [
+      25,
+      35
+    ]
+  ],
+  "classification_report": "                    precision    recall  f1-score   support\n\n     Lower concern       0.94      0.89      0.91       440\nNeeds verification       0.42      0.58      0.49        60\n\n          accuracy                           0.85       500\n         macro avg       0.68      0.74      0.70       500\n      weighted avg       0.88      0.85      0.86       500\n",
+  "features": [
+    "pH",
+    "Turbidity_NTU",
+    "Dissolved_Oxygen_mg_L",
+    "TDS_mg_L",
+    "Temperature_C"
+  ],
+  "limitation": "Scores apply only to synthetic demonstration data and are not real-world water-quality validation."
+}
